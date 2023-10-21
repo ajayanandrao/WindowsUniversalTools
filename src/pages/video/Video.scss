@@ -1,0 +1,209 @@
+@import "./../../Mixin.scss";
+
+.vid {
+    width: 100% !important;
+    height: 610px;
+    position: fixed;
+    margin: 0px;
+    z-index: 0;
+    .v {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.main-bg-container {
+    margin-top: 50%;
+    position: relative;
+    z-index: 2;
+
+    .bg {
+        background: #252525;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .intro-container {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        background: rgba(161, 161, 161, 0.1);
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        padding: 1rem;
+
+        .intro-img-container {
+            width: 100%;
+            display: flex;
+            // background: red;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 0px;
+
+            .intro-group{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .intro-img {
+                width: 150px;
+            }
+
+            .intro-title {
+                font-size: 30px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+}
+
+@include desk {
+    .intro-container {
+        margin-top: 60%;
+    }
+}
+
+@include desk-sm {
+    .vid {
+        height: 500px;
+    }
+
+    .main-bg-container {
+        .intro-container {
+            margin-top: 60%;
+
+            .intro-img-container {
+                justify-content: center;
+                align-items: center;
+                padding-top: 80px;
+
+                // background: red;
+                .intro-img {
+                    width: 130px;
+                }
+
+                .intro-title {
+                    font-size: 24px;
+                    margin: 10px;
+                }
+            }
+        }
+
+    }
+}
+
+@include tab {
+    .vid {
+        height: 400px;
+    }
+
+    .main-bg-container {
+
+        // margin-top: 70%;
+        .intro-container {
+            .intro-img-container {
+                .intro-group{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding: 60px 0px;
+
+                // background: red;
+                .intro-img {
+                    width: 100px;
+                }
+
+                .intro-title {
+                    font-size: 22px;
+                    margin: 15px 0px;
+                }
+            }
+        }
+
+    }
+}
+
+@include mobile {
+    .vid {
+        height: 250px;
+    }
+
+    .main-bg-container {
+        margin-top: 70%;
+
+        .intro-container {
+            width: 100%;
+
+            .intro-img-container {
+                width: 100%;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px 0px;
+
+                .intro-img {
+                    width: 80px;
+                }
+
+                .intro-title {
+                    font-size: 22px;
+                    margin: 15px 0px;
+
+                }
+            }
+        }
+
+    }
+
+}
+
+// ------------------------------------------------------------------
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+//   --------------------
+
+.reveal2 {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal2.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@include mobile {
+      .reveal {
+        position: relative;
+        transform: translateY(0px);
+        opacity: 1;
+        transition: 1s all ease;
+    }
+    
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

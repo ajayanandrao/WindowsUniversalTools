@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name": "Ajay",
+        "last_name": "Anandrao",
+        "newr":[
+            {
+                "one":"bi bi-star-fill",
+                "two":"bi bi-star-fill",
+                "three":"bi bi-star-fill",
+                "four":"bi bi-star-fill",
+                "five":"bi bi-star-half"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Pooja",
+        "last_name": "Anandrao",
+        "newr":[
+            {
+                "game":"Action"
+            }
+        ]
+    }
+]

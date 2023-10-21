@@ -1,0 +1,124 @@
+@import "./Mixin.scss";
+
+.center {
+    display: flex;
+    justify-content: center;
+    // background: darkslategray;
+}
+
+.Ms-container-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    // grid-gap: 1rem;
+    // margin-top: 50px;
+}
+
+@include desk {
+    .Ms-container-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@include desk-sm {
+    .Ms-container-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@include tab {
+    .Ms-container-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@include mobile {
+    .Ms-container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.title-container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    .see-all{
+        color: #4cc2ff;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.ms-card-container {
+    width: 175px;
+    // width: 15% !important;
+    height: 320px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.774);
+    background: rgba(161, 161, 161, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:hover {
+        box-shadow: 15px 20px 25px rgba(0, 0, 0, 0.192);
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .ms-inner-container {
+        .ms-card-bg {
+            width: 140px;
+            // width: 100%;
+            height: 200px;
+            // background: rgb(90, 90, 90);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+
+            .card-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 5px;
+            }
+        }
+
+        .ms-card-title {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .ms-card-cate {
+            font-size: 14px;
+        }
+
+        .ms-card-star {
+            margin-top: 5px;
+
+            .bi-star-fill,
+            .bi-star-half {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+// --------------------
+
+.class-start {
+    font-size: 12px;
+}
+
+.json-list {
+    display: flex;
+    list-style: none;
+}

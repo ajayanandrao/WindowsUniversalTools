@@ -1,0 +1,163 @@
+@import "./mixin.scss";
+
+.nav-color {
+	background-image: linear-gradient(to right, rgb(84, 56, 134), rgb(135, 65, 175)) !important;
+}
+
+.l {
+	color: white !important;
+	font-size: 14px !important;
+}
+
+.i {
+	color: white !important;
+	font-size: 15px !important;
+	border: none;
+}
+
+.fa-home {
+	font-size: 22px;
+}
+
+.game-Logo {
+	margin: 0px 100px;
+	width: 30px;
+}
+
+.nav-link {
+	display: flex;
+	align-items: center;
+}
+
+.link-name {
+	display: none;
+}
+
+// --------------------------------
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.btn:focus,
+.btn:active,
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+	background: transparent;
+	border: 1px solid whitesmoke;
+}
+
+.navbar {
+	// position: fixed;
+	color: rgba(255, 255, 255, 0.774);
+	background: rgba(255, 255, 255, 0.01);
+	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.24);
+	// border-bottom: 1px solid rgba(255,255,255,0.4);
+	backdrop-filter: blur(8px);
+
+	display: flex;
+	justify-content: center;
+
+	li {
+		padding: 0 0.1rem;
+
+		a {
+			color: rgba(255, 255, 255, 0.8) !important;
+
+			&:hover {
+				color: white !important;
+			}
+		}
+
+	}
+
+	.navbar-brand {
+		margin-left: 40px;
+		font-weight: 400;
+		// font-size: 16px;
+	}
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+
+.navul {
+	position: absolute;
+	right: 35%;
+
+}
+
+.btn-outline-success {
+	border: 1px solid rgba(255, 255, 255, 0.774);
+	color: rgba(255, 255, 255, 0.774);
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.2);
+		border: 1px solid rgba(255, 255, 255, 0.774);
+	}
+}
+
+
+@include desk {
+	.navul {
+		position: relative;
+		// right: inherit;
+		right: -18%;
+	}
+
+	.navbar-brand {
+		margin-left: 0px !important;
+	}
+
+	.navbar-brand {
+		margin-left: 0px !important;
+	}
+
+	.game-Logo {
+		margin: 0px 70px;
+		width: 30px;
+	}
+}
+
+@include desk-sm {
+	.navul {
+		position: relative;
+		// right: inherit;
+		right: 0%;
+		margin-bottom: 30px !important;
+	}
+
+	.game-Logo {
+		margin: 0px;
+		width: 30px;
+	}
+
+	.link-name {
+		color: white;
+		display: block;
+		margin-left: 20px;
+	}
+}
+
+@include tab {
+	.navul {
+		position: relative;
+		right: inherit;
+	}
+
+	.navbar-brand {
+		margin-left: 0px !important;
+	}
+
+}
+
+@include mobile {
+	ul {
+		display: flex !important;
+	}
+}

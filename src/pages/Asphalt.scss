@@ -1,0 +1,149 @@
+.card-one {
+    width: 100%;
+    display: flex;
+    background: fixed;
+    // background-image: url("https://store-images.s-microsoft.com/image/apps.43402.9007199266242715.ce32f66d-189c-4407-be9c-b0c09aff330d.a4fca33d-1c6d-414b-8f1f-335f7a53ff0c?w=1922&h=1080&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #202020 0%, #202020 0%, #202020 60%, #202020 50%, transparent);
+}
+
+    .bg-linear-container {
+        width: 85%;
+        margin: 0 auto;
+        padding: 15px;
+        .flex-container {
+            display: flex;
+            margin-top: 250px;
+            .img-container {
+                .bg-card-container {
+                    width: 200px;
+                    height: 310px;
+                    border-radius: 10px;
+                    // background-image: url("https://store-images.s-microsoft.com/image/apps.57377.9007199266242715.ce32f66d-189c-4407-be9c-b0c09aff330d.cc01ba3d-6c9b-4d3d-bf03-e5422f1c6666?mode=scale&q=90&h=300&w=200");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                margin-left: 50px;
+                .stars-container{
+                    margin-top: 30px;
+                    display: flex;
+                    .starts{
+                        padding:0px 10px;
+                        border-right: 1px solid rgb(134, 134, 134);
+                        .bi-star-fill{
+                            color: rgb(218, 116, 32);
+                        }
+                        .comp-logo{
+                            width: 50px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .top-description-container{
+                    margin-top: 30px;
+                }
+            }
+
+            .asphalt-btn-container{
+                margin-top: 30px;
+                display: flex;
+                .btn-color{
+                    background: #555555;
+                    box-shadow: none;
+                    text-transform: capitalize;
+                    border-radius: 1rem;
+                    font-weight: 400;
+                }
+            }
+            .install-btn-container{
+                margin: 30px 0px;
+                display: flex;
+                align-items: center;
+                .install-btn{
+                    color: black;
+                    text-transform: capitalize;
+                    width: 130px;
+                    font-weight: 400;
+                    box-shadow: none;
+                }
+                .purchases{
+                    font-size: 13px;
+                    margin-left: 10px;
+                }
+            }          
+        }
+
+// --------------------------------------------
+
+        .game-screenShot-container{
+            background: #2b2b2c;
+            padding:10px;
+            border-radius: 10px;
+            padding-bottom: 30px;
+            .screen-text{
+                border-bottom: 1px solid #555555;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                // padding-left: 10px;
+                font-weight: 500;
+            }
+            
+        }
+        .description-container{
+            background: #2b2b2c;
+            border-radius: 10px;
+            padding: 10px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            .desc-text{
+                border-bottom: 1px solid #555555;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                // padding-left: 10px;
+                font-weight: 500;
+            }
+        }
+        .additional-container{
+            background: #2b2b2c;
+            border-radius: 10px;
+            padding: 10px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0px;
+            .add-flex{
+                display: flex;
+            }
+            .add-text{
+                border-bottom: 1px solid #555555;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                // padding-left: 10px;
+                font-weight: 500;
+           }
+        }
+    }

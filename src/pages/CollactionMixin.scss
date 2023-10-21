@@ -1,0 +1,60 @@
+@import "./../Mixin.scss";
+
+@include desk-sm {
+    .bg-color{
+        background: linear-gradient(to top, #202020 50%, #202020 50%, #202020 60%, #202020 50%, transparent) !important;
+    }
+    .bg-linear-container {
+        width: 100% !important;
+
+        .flex-container {
+            flex-direction: column;
+            margin-top: 50px  !important;
+
+            .img-container {
+                display: flex;
+                justify-content: center;
+            }
+
+            .text-container {
+                margin-top: 30px;
+                margin-left: 0px !important;
+
+                .game-title,
+                .game-comp {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .game-comp {
+                    font-size: 14px;
+                }
+
+                .stars-container {
+                    justify-content: center;
+                }
+            }
+
+            .asphalt-btn-container {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .bg-color{
+        background: linear-gradient(to top, #202020 50%, #202020 50%, #202020 80%, #202020 50%, transparent) !important;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .img-container {
+        .bg-card-container {
+            width: 170px !important;
+            height: 260px !important;
+
+        }
+    }
+}

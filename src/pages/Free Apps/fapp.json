@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "img":"https://oit.ua.edu/wp-content/uploads/2021/02/OneDrive_256x256.png",
+        "name":"OneDrive",
+        "link":"Onedrive"
+    },
+    {
+        "id":2,
+        "img":"http://store-images.s-microsoft.com/image/apps.60166.13510798887304077.23063538-cc5b-48a6-877b-3b83e2722bce.426db1ff-299b-45cd-80f7-54d8188f749e",
+        "name":"ToDo",
+        "link":"Todo"
+    },
+    {
+        "id":3,
+        "img":"http://store-images.s-microsoft.com/image/apps.198.13510798882270039.d8e24d48-9675-4047-92c3-ca9eeb004c25.4f708644-24b0-4785-bf35-8f526c687818",
+        "name":"People",
+        "link":"People"
+    },
+    {
+        "id":4,
+        "img":"http://store-images.s-microsoft.com/image/apps.54930.9007199266252409.55c8a156-d5a0-4204-88cb-cad97cec8cf5.3041e7a4-ed61-4495-a21c-4389ab6042a0",
+        "name":"Photos",
+        "link":"Photos"
+    },
+    {
+        "id":5,
+        "img":"http://store-images.s-microsoft.com/image/apps.24777.9007199266246197.1102bb94-3d65-417b-bd4a-5e4abd0fc759.6352bf26-e71f-40c8-ad7d-ff92f6fecc6d",
+        "name":"Weather",
+        "link":"Weather"
+    },
+    {
+        "id":6,
+        "img":"http://store-images.s-microsoft.com/image/apps.22118.9007199266252480.94f4e265-68d4-4ddc-a67b-b29c8d3021c8.b7a74ad0-b289-4f03-9d22-25f77151ffa1",
+        "name":"Store",
+        "link":"Store"
+    }
+]
+
