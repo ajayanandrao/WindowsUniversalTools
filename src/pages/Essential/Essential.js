@@ -3,12 +3,12 @@ import "./Essential.scss";
 
 const Essential = (props) => {
 
-   const ebg ={
-    backgroundImage:`url(${props.bg})`
-   } 
-   const wid ={
-    width:(props.w)
-   }
+    const ebg = {
+        backgroundImage: `url(${props.bg})`
+    }
+    const wid = {
+        width: (props.w)
+    }
     return (
         <>
             <div className='e-app' style={ebg}>
@@ -27,7 +27,7 @@ const Essential = (props) => {
                         <div className='ess-app-container'>
                             <div className='ess-app-name'>{props.n1}</div>
                         </div>
-                        <span style={{ fontSize: "14px",fontWeight:"400" }}>{props.c1}</span>
+                        <span style={{ fontSize: "14px", fontWeight: "400" }}>{props.c1}</span>
                         <div className='ess-stars-container'>
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
@@ -47,7 +47,7 @@ const Essential = (props) => {
                         <div className='ess-app-container'>
                             <div className='ess-app-name'>{props.n2}</div>
                         </div>
-                        <span style={{ fontSize: "14px",fontWeight:"400" }}>{props.c2}</span>
+                        <span style={{ fontSize: "14px", fontWeight: "400" }}>{props.c2}</span>
                         <div className='ess-stars-container'>
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
@@ -61,7 +61,7 @@ const Essential = (props) => {
                 <div className='ess-grid-three'>
                     <div className="Ess-card-container btn">
 
-                        <div className='Ess-img-container'style={wid}>
+                        <div className='Ess-img-container' style={wid}>
                             <img className='card-img' src={props.c_img_3} />
 
                         </div>
@@ -69,7 +69,7 @@ const Essential = (props) => {
                         <div className='ess-app-container'>
                             <div className='ess-app-name'>{props.n3}</div>
                         </div>
-                        <span style={{ fontSize: "14px",fontWeight:"400" }}>{props.c3}</span>
+                        <span style={{ fontSize: "14px", fontWeight: "400" }}>{props.c3}</span>
                         <div className='ess-stars-container'>
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>
@@ -91,7 +91,7 @@ const Essential = (props) => {
                         <div className='ess-app-container'>
                             <div className='ess-app-name'>{props.n4}</div>
                         </div>
-                        <span style={{ fontSize: "14px",fontWeight:"400" }}>{props.c4}</span>
+                        <span style={{ fontSize: "14px", fontWeight: "400" }}>{props.c4}</span>
                         <div className='ess-stars-container'>
                             <i className="bi bi-star-fill"></i>
                             <i className="bi bi-star-fill"></i>

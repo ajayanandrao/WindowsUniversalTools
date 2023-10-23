@@ -1,6 +1,6 @@
 @import "./../../Mixin.scss";
 
-.glass {
+.glass{
     color: rgba(255, 255, 255, 0.774);
     background: rgba(255, 255, 255, 0.2) !important;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -8,18 +8,16 @@
 
     text-transform: capitalize;
 }
-
-.btn {
+.btn{
     text-transform: capitalize;
 }
-
 .e-app {
     width: 100%;
     height: 450px;
     // background-image: url("https://4kwallpapers.com/images/wallpapers/macos-monterey-wwdc-21-stock-dark-mode-5k-2560x1440-5585.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     display: flex;
     align-items: center;
     padding: 2rem;
@@ -54,19 +52,16 @@
         // background: red;
         display: flex;
         align-items: flex-end;
-
+        
         .ess-app-name {
             font-weight: 500;
             font-size: 14px;
         }
 
-
+        
     }
-
     .ess-stars-container {
-
-        .bi-star-fill,
-        .bi-star-half {
+        .bi-star-fill, .bi-star-half {
             margin: 0px 2px;
         }
     }
@@ -82,14 +77,13 @@
     }
 
     .Ess-img-container {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
 
         .card-img {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            object-position: center;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     }
 }

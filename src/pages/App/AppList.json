@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "One Drive",
+        "company": "Microsoft Corporation",
+        "bg": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RE4q0pH?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=95&fmt=png-alpha&fit=constrain",
+        "cardBg": "https://oit.ua.edu/wp-content/uploads/2021/02/OneDrive_256x256.png",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    },
+    {
+        "id": 2,
+        "name": "Todo",
+        "company": "Microsoft Corporation",
+        "bg": "https://mspoweruser.com/wp-content/uploads/2018/09/Microsoft-To-Do.jpg",
+        "cardBg": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d1615f116697567.60aa4da8474d7.png",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    },
+    {
+        "id": 3,
+        "name": "People",
+        "company": "Microsoft Corporation",
+        "bg": "https://www.onmsft.com/wp-content/uploads/2015/09/win10-windows-contacts.jpg",
+        "cardBg": "http://store-images.s-microsoft.com/image/apps.198.13510798882270039.d8e24d48-9675-4047-92c3-ca9eeb004c25.4f708644-24b0-4785-bf35-8f526c687818",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    },
+    {
+        "id": 4,
+        "name": "Photos",
+        "company": "Microsoft Corporation",
+        "bg": "https://4kwallpapers.com/images/wallpapers/windows-11-dark-background-bloom-5k-1440x900-8399.png",
+        "cardBg": "http://store-images.s-microsoft.com/image/apps.54930.9007199266252409.55c8a156-d5a0-4204-88cb-cad97cec8cf5.3041e7a4-ed61-4495-a21c-4389ab6042a0",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    },
+    {
+        "id": 5,
+        "name": "Weather",
+        "company": "Microsoft Corporation",
+        "bg": "https://firebasestorage.googleapis.com/v0/b/store-80928.appspot.com/o/Screenshot%202023-01-07%20161141.png?alt=media&token=7527826a-ad20-4400-96ed-5b0acdf0e706",
+        "cardBg": "http://store-images.s-microsoft.com/image/apps.24777.9007199266246197.1102bb94-3d65-417b-bd4a-5e4abd0fc759.6352bf26-e71f-40c8-ad7d-ff92f6fecc6d",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    },
+    {
+        "id": 6,
+        "name": "Store",
+        "company": "Microsoft Corporation",
+        "bg": "https://mspoweruser.com/wp-content/uploads/2021/06/Android-apps-Microsoft-Store.jfif",
+        "cardBg": "http://store-images.s-microsoft.com/image/apps.22118.9007199266252480.94f4e265-68d4-4ddc-a67b-b29c8d3021c8.b7a74ad0-b289-4f03-9d22-25f77151ffa1",
+        "descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "s1": "",
+        "s2": "",
+        "s3": "",
+        "s4": "",
+        "s5": ""
+    }
+]

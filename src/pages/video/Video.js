@@ -76,24 +76,24 @@ const Video = () => {
 
             c_img_1="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"
 
-            c_img_2="https://1000logos.net/wp-content/uploads/2020/08/Microsoft-Word-Logo.png"
+            c_img_2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png"
 
             c_img_3="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414"
 
-            c_img_4="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1101px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+            c_img_4="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/2048px-Microsoft_365_Copilot_Icon.svg.png"
 
             title="Microsoft 360"
             ess_text="Everything you need to achieve more in less time"
 
             n1="Excel"
             n2="Word"
-            n3="PowerPoint"
-            n4="Outlook"
+            n3="Power Point"
+            n4="Copilote"
 
-            c1="Office"
-            c2="Office"
-            c3="Office"
-            c4="Office"
+            c1="office"
+            c2="office"
+            c3="office"
+            c4="office"
 
             w="110px"
           />

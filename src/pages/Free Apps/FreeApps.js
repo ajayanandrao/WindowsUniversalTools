@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import "./FreeApps.scss";
-import applist from "./fapp.json";
+import applist from "./AppList.json";
 import { Link } from 'react-router-dom';
 
 const FreeApps = () => {
@@ -40,10 +40,32 @@ const FreeApps = () => {
                 <div className='center'>
 
                     <div className='f-card-grid'>
-                        {listjson}
+
+                        {applist.map((apps) => {
+                            return (
+                                <>
+                                    <Link to={`/apps/${apps.id}`}>
+                                        <div className='f-card-container'>
+                                            <div className='f-card-square'>
+                                                <img className='f-card-img' src={apps.cardBg} />
+                                            </div>
+                                            <div className='f-card-text'>
+                                                <span className='' style={{ fontWeight: "500", fontSize: "16px" }}>{apps.name}</span>
+                                                <div style={{ fontSize: "12px" }}>Apps . Productivity</div>
+                                                <div style={{ fontSize: "12px" }}>
+                                                    <i className="bi bi-star-fill" style={{ marginLeft: "0px" }}></i>
+                                                    <i className="bi bi-star-fill"></i>
+                                                    <i className="bi bi-star-fill"></i>
+                                                    <i className="bi bi-star-fill"></i>
+                                                    <i className="bi bi-star-half"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </>
+                            )
+                        })}
                     </div>
-
-
 
                 </div>
             </div>

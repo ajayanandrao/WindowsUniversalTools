@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Modern Combat 5",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        "img":"https://store-images.microsoft.com/image/global.56093.image.e3da543f-ed61-47ce-bc12-683dab90c502.5e57d206-3b82-4a7b-9b98-d1548cd450a8",
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "2.8 GB",
+        "bg": "https://wallpaperaccess.com/full/1901641.jpg",
+        "cardBg": "https://store-images.s-microsoft.com/image/apps.63730.9007199266324985.23780ae6-d955-45e9-865d-cb662f3f9863.79a3844d-571c-418d-b0b5-042c8c68208b?mode=scale&q=90&h=300&w=200"
+    },
+    {
+        "id": 2,
+        "name": "GTA",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        "img":"https://store-images.microsoft.com/image/global.56093.image.e3da543f-ed61-47ce-bc12-683dab90c502.5e57d206-3b82-4a7b-9b98-d1548cd450a8",
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "2 GB",
+        "bg": "https://i.ytimg.com/vi/TtWxflUBlI0/maxresdefault.jpg",
+        "cardBg": "https://store-images.s-microsoft.com/image/apps.8135.66515090704019777.7fa547c1-c211-4229-a4d3-3ceef762e0a4.0bb0ac0a-9d63-4d91-8e53-f2e39a040bcd?q=90&w=270&h=405&mode=crop&format=jpg&background=%23FFFFFF"
+    },
+    {
+        "id": 3,
+        "name": "Halo: Spartan Assault",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        "img":"https://store-images.microsoft.com/image/global.56093.image.e3da543f-ed61-47ce-bc12-683dab90c502.5e57d206-3b82-4a7b-9b98-d1548cd450a8",
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "3 GB",
+        "bg": "https://images.cgames.de/images/gsgp/290/halo-spartan-assault_2414485.jpg",
+        "cardBg": "https://upload.wikimedia.org/wikipedia/en/6/6d/Halo-spartan-assault-boxart.png"
+    },
+    {
+        "id": 4,
+        "name": "Candy Crush",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        "img":"https://store-images.microsoft.com/image/global.56093.image.e3da543f-ed61-47ce-bc12-683dab90c502.5e57d206-3b82-4a7b-9b98-d1548cd450a8",
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "2.8 GB",
+        "bg": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHVJ?ver=7635&q=60&m=6&h=431&w=767&b=%23FFFFFFFF&l=f&o=t&aim=true",
+        "cardBg": "https://store-images.s-microsoft.com/image/apps.19770.13510798886202835.850647a4-273f-42dd-a98c-8504a5b01621.9a476f81-d96a-44be-b9b6-61553a331ec8?mode=scale&q=90&h=225&w=150"
+    },
+    {
+        "id": 5,
+        "name": "Dragon Hunter 5",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        "img":"https://store-images.microsoft.com/image/global.56093.image.e3da543f-ed61-47ce-bc12-683dab90c502.5e57d206-3b82-4a7b-9b98-d1548cd450a8",
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "2.8 GB",
+        "bg": "https://www.mobygames.com/images/promo/original/1558648427-1700445002.jpg",
+        "cardBg": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT9LT7wna57dF23E9w-9-70Hiida3zJGJ4oxGbMnAyBCinAG8ID7YXdKeCPGV4K1coI"
+    },
+    {
+        "id": 6,
+        "name": "Asphalt 8",
+        "company": "Gameloft SE",
+        "average": "4.5",
+        "rating": "4.5",
+        
+        "descri": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "publishedBy": "Gameloft SE",
+        "Size": "2.8 GB",
+        "bg": "https://store-images.s-microsoft.com/image/apps.43402.9007199266242715.ce32f66d-189c-4407-be9c-b0c09aff330d.a4fca33d-1c6d-414b-8f1f-335f7a53ff0c?w=1922&h=1080&q=60",
+        "cardBg": "https://store-images.s-microsoft.com/image/apps.57377.9007199266242715.ce32f66d-189c-4407-be9c-b0c09aff330d.cc01ba3d-6c9b-4d3d-bf03-e5422f1c6666?mode=scale&q=90&h=300&w=200"
+    }
+]
